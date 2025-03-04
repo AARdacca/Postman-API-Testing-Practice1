@@ -48,6 +48,7 @@ https://documenter.getpostman.com/view/42431548/2sAYdkGoDy
 https://docs.google.com/spreadsheets/d/1bji32Pf5ZbYFP466-QcfxHNnQ99zST_h/edit?usp=sharing&ouid=102981712591594829857&rtpof=true&sd=true
 
 ### Newman Report
+![Newman Report](https://github.com/user-attachments/assets/ee9fcb64-9036-46c8-ad02-f13b4c8e85c7)
 
 
 Each scenario includes **positive and negative test cases**.
@@ -66,20 +67,8 @@ Each scenario includes **positive and negative test cases**.
 - Select the Postman collection JSON file
 
 #### 3. Run Tests Using Newman
-Ensure you have **Newman** installed:
-```sh
- npm install -g newman
-```
-Run the tests:
-```sh
- newman run dmoney.postman_collection.json -r cli,html --reporter-html-export newman-report.html
-```
 
 #### 4. Generate Newman Report
-Run the following command to generate an HTML report:
-```sh
- newman run dmoney.postman_collection.json -r html --reporter-html-export report.html
-```
 
 #### 5. Publish Postman Documentation
 - Go to **Postman > Collections**
@@ -87,18 +76,12 @@ Run the following command to generate an HTML report:
 - Copy the generated link and update it in this README.
 
 #### 6. Upload Screenshots to GitHub README
-Add screenshots of your Newman report to the `README.md` under the **Reports** section.
-
-### Postman Documentation
-[Postman API Documentation](#) (Replace `#` with the actual link after publishing)
-
-### Reports
-![Newman Report Screenshot](screenshots/newman-report.png) (Replace with actual screenshot path)
+Add screenshots of my Newman report to the `README.md` under the **Reports** section.
 
 ### Issues and Suggestions
 - A Google Sheet containing at least **5 bugs or improvements** has been created.
-- The sheet includes detailed issue descriptions, steps to reproduce, expected vs actual results, priority, severity, and screenshots.
-- [Google Sheet Link](#) (Replace `#` with the actual link to your issue report)
+- The sheet includes detailed issue descriptions, steps to reproduce, expected vs actual results, priority, severity and screenshots.
+- [Google Sheet Link](#) (Replace `#` with the actual link to my issue report)
 
 ### API Authentication
 - **Admin Credentials:**
