@@ -57,7 +57,7 @@ Each scenario includes **positive and negative test cases**.
 
 #### 1. Clone the Repository
 ```sh
- git clone <your-repository-url>
+ git clone https://github.com/AARdacca/Postman-API-Testing-Practice1.git
  cd dmoney-api-testing
 ```
 
